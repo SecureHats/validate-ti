@@ -1,0 +1,20 @@
+name: 'validate-ti'
+description: 'Validate Microsoft Sentinel Threat Intelligence files. Supported file types for file based ti are json and csv files'
+branding:
+  icon: 'check-square'
+  color: 'green'
+inputs:
+  filesPath:
+    description:  'The path containing the threat intelligence files.'
+    required: false
+    default: '.'
+  logLevel:
+    description:  'Verbosity level of the test results (see documentation).'
+    required: false
+    default: 'Normal'
+
+runs:
+  using: "composite"
+  steps:
+    - run: ${{ github.action_path }}/action.ps1 -FilesPath ${{ inputs.filesPath }} -LogLevel ${{ inputs.logLevel }}
+      shell: pwsh
