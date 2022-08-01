@@ -1,0 +1,10 @@
+threatTypes,tags,name,description,confidence,revoked,validFrom,validUntil,tlpLevel,severity,observableType,observableValue
+malicious ip,test tag,test indicator ip1,test description,102,FALSE,4/22/2022,4/29/2022,green,2,ipv4-addr,4.1.1.1
+malicious ip,test tag,test indicator ip2,test description,88,FALSE,4/22/2022,4/29/2022,green,9,ipv4-addr,4.1.1.2
+malicious ip,test tag,test indicator ip3,test description,1111,FALSE,4/22/2022,4/29/2022,green,9,ipv4-addr,4.1.1.3
+malicious ip,test tag,test indicator ip4,test description,88,FALSE,4/22/2022,4/29/2022,green,3,ipv4-addr,4.1.1.4
+malicious ip,test tag,test indicator ip5,test description,88,FALSE,4/22/2022,4/29/2022,purple,3,ipv4-addr,4.1.1.5
+malware domain,test tag,test indicator domain,test description,99,FALSE,4/29/2022,4/22/2022,white,2,domain-name,abc.com
+malware url,test tag,test indicator url,test description,100,FALSE,4/22/2022,4/29/2022,green,2,url,https://xyz.com
+malicious email,test tag,test indicator email address,test description,100,FALSE,4/22/2022,4/29/2022,green,3,email-addr,abc@xyz.com
+malicious user account,test tag,test indicator user account,test description,100,FALSE,4/22/2022,4/29/2022,amber,4,user-account,AAAA

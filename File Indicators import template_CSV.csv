@@ -1,0 +1,8 @@
+"DELETE THIS LINE BEFORE IMPORTING.
+1. Severity can accept values between 0 and 5. 
+2. Confidence can accept values between 1 and 100.  
+3. tlpLevel can accept values of 'white', 'green', 'amber', 'red'.  
+4. 'validfrom' date needs to be before the 'validUntil' date. 
+5. 'validFrom' and 'validUntil' should be in UTC time format (e.g. 2022-02-26T18:29:07.778Z).
+6. Required fields are: validFrom, at least one of the file hashes.",
+fileName,directoryPath,threatTypes,tags,name,description,confidence,revoked,validFrom,validUntil,tlpLevel,severity,filehash:md5,filehash:md6,filehash:ripemd-160,filehash:sha-1,filehash:sha-224,filehash:sha-256,filehash:sha-384,filehash:sha-512,filehash:sha3-224,filehash:sha3-256,filehash:sha3-384,filehash:sha3-512,filehash:ssdeep,filehash:whirlpool

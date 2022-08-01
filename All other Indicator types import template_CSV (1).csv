@@ -1,0 +1,9 @@
+"DELETE THIS LINE BEFORE IMPORTING.
+1. Microsoft Sentinel supports indicators with observableType as ipv4-addr, ipv6-addr, domain-name, url, user-account, email-addr, windows-registry-key.   
+2. Severity can accept values between 0 and 5. 
+3. Confidence can accept values between 1 and 100.  
+4. tlpLevel can accept values of 'white', 'green', 'amber', 'red'.  
+5. 'validFrom' date needs to be before the 'validUntil' date. 
+6. 'validFrom' and 'validUntil' should be in UTC time format (e.g. 2022-02-26T18:29:07.778Z).
+7. Required fields are: observable_type, observable_value, validFrom",
+threatTypes,tags,name,description,confidence,revoked,validFrom,validUntil,tlpLevel,severity,observableType,observableValue
